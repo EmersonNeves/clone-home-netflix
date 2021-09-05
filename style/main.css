@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --red: #e50914;
+  --black: #141414;
+  --gray: #aaa;
+  --white: #fff;
+}
+
+body {
+  background-color: var(--black);
+  font-family: "Times New Roman", "Times New Roman", Times, serif, sans-serif;
+  color: var(--white);
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 0 20px;
+}
+
+header .logo {
+  width: 10%;
+  padding-left: 25px;
+}
+
+header .container nav {
+  display: flex;
+  align-items: flex-start;
+  padding-right: 910px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--gray);
+  margin-right: 10px;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+header nav a.active{
+  color: var(--white)
+}
+
+header nav a:hover {
+  color: var(--white);
+}
+
+.main-movie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+   
+
+  font-size: 16px;
+  background: linear-gradient(rgba(119, 31, 31, 0.5), rgba(0, 0, 0, 0.5) 100%),
+  url("../img/capa-breaking-bad.jpg");
+  height: 400px;
+  background-size: cover;
+}
+
+.main-movie .title {
+  margin-top: 30%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+}
+
+.main-movie .description {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.button-play {
+  border: none;
+  background-color: var(--white);
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button-play i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.button-info {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: var(--white);
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  width: 280px;
+  border-radius: 5px;
+}
+
+.button-info i {
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.button-play:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.button-info:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.main-movie .container {
+
+}
+
+.owl-carousel .owl-item img{
+  width: 60%;
+}
+
+.movie-box{
+ display: block;
+}
+
+.movies-carousel{
+  margin-top: 10px;
+}
